@@ -27,5 +27,5 @@ $.ajax({
     console.log(response);
 
 
-    $(".panel-body").text("This is your doc: " + JSON.stringify(response.response.docs));
+    $("#searchResults").text("This is your doc: " + JSON.stringify(response.response.docs));
 });
